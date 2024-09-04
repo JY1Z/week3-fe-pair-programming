@@ -1,3 +1,5 @@
+import PageLinks from "./PageLinks";
+
 function Footer() {
   return (
     <>
