@@ -1,9 +1,3 @@
-// function Tour() {
-//   return <div>Tour</div>;
-// }
-
-// export default Tour;
-
 const Tour = ({ id, image, date, title, info, location, duration, cost }) => {
   return (
     <article className="tour-card">
