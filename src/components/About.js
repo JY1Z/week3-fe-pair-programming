@@ -6,7 +6,8 @@ const About = () => {
     <>
       {/* About section starts */}
       <section className="section" id="about">
-        <Title title= 'featured' subTitle='tours' />
+        <Title title= 'about' subTitle='us' />
+        
         <div className="section-center about-center">
           <div className="about-img">
             <img src={about} className="about-photo" alt="awesome beach" />
