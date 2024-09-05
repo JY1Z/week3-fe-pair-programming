@@ -1,4 +1,5 @@
 import logo from "../images/logo.svg";
+import PageLinks from './PageLinks';
 
 const Navbar = () => {
   return (
@@ -10,28 +11,11 @@ const Navbar = () => {
             <i className="fas fa-bars"></i>
           </button>
         </div>
-        <ul className="nav-links" id="nav-links">
-          <li>
-            <a href="#home" className="nav-link">
-              home
-            </a>
-          </li>
-          <li>
-            <a href="#about" className="nav-link">
-              about
-            </a>
-          </li>
-          <li>
-            <a href="#services" className="nav-link">
-              services
-            </a>
-          </li>
-          <li>
-            <a href="#tours" className="nav-link">
-              tours
-            </a>
-          </li>
-        </ul>
+
+        {/* Use PageLinks component to dynamically generate the nav links */}
+        <PageLinks parentClass="nav-links" itemClass="nav-link" />
+
+        {/* Social media icons */}
         <ul className="nav-icons">
           <li>
             <a
